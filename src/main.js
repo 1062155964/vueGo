@@ -6,9 +6,11 @@ import router from './router'
 // 先在终端install安装fastClick依赖包,再调用解决移动端按键响应有可能慢的问题
 import fastClick from 'fastclick'
 // 移除浏览器的默认样式，避免不同浏览器出现不同效果
-import './assets/styles/reset.css'
+import 'styles/reset.css'
 // 引入border.css 解决不同倍像素手机边框px不同的
-import './assets/styles/border.css'
+import 'styles/border.css'
+// 在iconfont官网找到对应的图标，引入
+import 'styles/iconfont.css'
 
 Vue.config.productionTip = false
 
